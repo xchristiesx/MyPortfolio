@@ -263,8 +263,8 @@ nav {
 
 .image {
   margin: auto 0;
-  width: 380px;
-  height: 380px;
+  width: 480px;
+  height: 480px;
   border-radius: 55% 45% 55% 45%;
   overflow: hidden;
   animation: imgFloat 7s ease-in-out infinite;
@@ -459,19 +459,20 @@ h3 {
 }
 
 /* ----- CONTACT BOX ----- */
+
 .contact-info {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
-  width: 100%;
+  width: 600px;
   height: 315px;
   background: var(--second-color);
   border-radius: 10px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
+  margin-left: 30%;
 }
 
 .contact-info>h2 {
