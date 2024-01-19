@@ -654,6 +654,10 @@ footer {
   }
 
 }
+a {
+  text-decoration: none; /* Odstraní podtržení */
+  color: inherit; /* Převezme barvu z rodičovského elementu, v tomto případě zůstane černá */
+}
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
